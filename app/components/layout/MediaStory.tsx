@@ -60,7 +60,7 @@ export default function MediaStory() {
   }
 
   return (
-    <section className="media_story w-full h-full relative bg-[var(--vista-blue)] rounded-xl overflow-hidden">
+    <section className="w-full h-[400px] md:h-full relative bg-[var(--vista-blue)] rounded-xl overflow-hidden">
       <div className="h-full w-full relative">
         <Image
           src={assets[currentStoryIndex].img}

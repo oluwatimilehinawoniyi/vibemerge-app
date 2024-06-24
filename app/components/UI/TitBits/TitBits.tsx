@@ -13,7 +13,7 @@ export default function TitBits() {
 
 function ModelCard() {
   return (
-    <div className="titbit_image flex flex-col justify-between p-4 w-1/2">
+    <div className="titbit_image flex flex-col justify-between p-4">
       <span className="merged px-3 py-1 text-white rounded-full text-sm">
         merged
       </span>
@@ -60,7 +60,7 @@ function CardStacks() {
   }, [cards]);
 
   return (
-    <div className="flex gap-4 w-1/2 card_stacks">
+    <div className="flex gap-4 card_stacks">
       {cards.map((item) => (
         <div
           key={item.id}
