@@ -1,4 +1,4 @@
-// import { useState } from "react";
+// import { useState, useEffect } from "react";
 import { fetchUserProfile } from "./api/spotifyApi";
 
 export default function Dashboard() {
